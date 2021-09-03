@@ -10,8 +10,10 @@ import {
     User,
     UserGreeting,
     UserName,
-    Icon
+    Icon,
+    HighlightCards
 } from './styles';
+import { HighlightCard } from '../../components/HighlightCart';
 
 export function Dashboard() {
     return (
@@ -28,6 +30,15 @@ export function Dashboard() {
                     <Icon name="power" />
                 </UserWrapper>
             </Header>
+            <HighlightCards
+
+            >
+                <HighlightCard />
+                <HighlightCard />
+                <HighlightCard />
+                <HighlightCard />
+            </HighlightCards>
+
         </Container>
 
     )
